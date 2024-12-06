@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "inscrire",
+      "patterns": ["inscription","s'inscrire","inscrire"," Comment s'inscrire au service?"],
+      "responses": ["Pour s'inscrire au service myPoste vous pouvez soit ouvrir un compte avec l'application mobile et ensuite importer vos comptes, soit déposer une demande au centre des chèques postaux."]
+    },
+    {
+      "tag": "myPoste",
+      "patterns": ["myPoste?","  C'est quoi myPoste?"],
+      "responses": ["myPoste est un service financier 100% digitale qui vous permet de beneficier de toutes les operations financieres de la Poste sur votre mobile avec une application mobile. myPoste est disponible gratuitement sur les 3 principaux store d'applications (Google Play, Apple Store, Huawei AppGallery)."]
+    },
+     {
+      "tag": "payant",
+      "patterns": ["payment","Est-ce que ce service est payant?"],
+      "responses": ["myPoste est un service gratuit aucune taxe ou frais supplementaire ne vous sera applique. Seules les transactions que vous effectuez seront taxees."]
+    },
+    {
+      "tag": " mobile?",
+      "patterns": ["mobile","plusieurs mobile"," Est-ce que je peux utiliser myPoste sur plusieurs mobile?"],
+      "responses": [" Pour activer ce service vous devez présenter un numéro de gsm personnel, si vous avez plusqu'un numéro vous pouvez installer et utiliser ce service sur plusieurs smartphones."]
+    },
+    {
+      "tag": " CCP",
+      "patterns": ["CCP"," Epargne ","SICAV","Comment je peux consulter mes comptes CCP, Epargne et SICAV?"],
+      "responses": ["Si vous êtes inscrit avec vos paramêtres de CCPnet vos comptes sont accessibles depuis (Consulter mes comptes) sinon veuillez les importer un à un depuis (Importer mes comptes Postaux), aprés la validation de votre demande par l'équipe myPoste,vous trouverez votre compte sur l'application."]
+    },
+    {
+      "tag": " Epargne",
+      "patterns": ["CCP"," Epargne ","SICAV","Comment je peux consulter mes comptes CCP, Epargne et SICAV?"],
+      "responses": ["Si vous êtes inscrit avec vos paramêtres de CCPnet vos comptes sont accessibles depuis (Consulter mes comptes) sinon veuillez les importer un à un depuis (Importer mes comptes Postaux), aprés la validation de votre demande par l'équipe myPoste,vous trouverez votre compte sur l'application."]
+    },
+     {
+      "tag": " SICAV",
+      "patterns": ["CCP"," Epargne ","SICAV","Comment je peux consulter mes comptes CCP, Epargne et SICAV?"],
+      "responses": ["Si vous êtes inscrit avec vos paramêtres de CCPnet vos comptes sont accessibles depuis (Consulter mes comptes) sinon veuillez les importer un à un depuis (Importer mes comptes Postaux), aprés la validation de votre demande par l'équipe myPoste,vous trouverez votre compte sur l'application."]
+    },
+
+    {
+      "tag": " CCPNet ",
+      "patterns": ["Je suis abonné CCPNet","CCPNet"," Je suis abonné CCPNet est-ce que je dois importer mes comptes?"],
+      "responses": ["Si vous avez accédé à l'application avec vos paramètres CCPNet, vous n'avez pas besoin d'importer vos comptes vous pouvez les trouver directement via la rubrique (Consulter mes comptes)."]
+    },
+    {
+      "tag": " mobile?",
+      "patterns": ["mobile","plusieurs mobile"," Est-ce que je peux utiliser myPoste sur plusieurs mobile?"],
+      "responses": [" Pour activer ce service vous devez présenter un numéro de gsm personnel, si vous avez plusqu'un numéro vous pouvez installer et utiliser ce service sur plusieurs smartphones."]
+    },
+    {
+      "tag": " l'importation de compte",
+      "patterns": ["l'importation de compte"," Est-ce que l'importation de compte est automatique"],
+      "responses": ["Votre demande d'importation de compte sera examinée par l'équipe myPoste et vous serez informé de la suite de votre demande via l'application (Notifications), veuillez attendre le retour de myPoste avent de refaire une autre demande."]
+    },
+    {
+      "tag": " l'importation rejetée",
+      "patterns": [" demande d'importation a été rejetée"," importation rejetée"," Pourquoi ma demande d'importation a été rejetée"],
+      "responses": ["Veuillez s'assurer que les documents envoyés (CIN recto et verso, Justif du compte) sont claires et lisibles et que le selfie pris soit avec une copie du CIN dans la main juste au dessous du visage.\n\n"]
+    },
+    {
+      "tag": " selfie avec CIN?",
+      "patterns": ["selfie","selfie avec CIN?"," Comment prendre un selfie avec CIN?,"],
+      "responses": [" Le selfie avec CIN est demandé au niveau de plusieurs services de l'application. Pour prendre le selfie, veuillez procéder comme suit : 1)Tenir votre mobile dans une main, 2)Tenir votre CIN (Recto) avec l'autre main juste au dessous de votre visage,3)Approcherla caméra du portable de votre visage et de la CIN de telle sorte que celle-ci soit lisible,4)Prendre le selfie."]
+    }
+  ]
+}
